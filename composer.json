@@ -1,0 +1,24 @@
+{
+    "name": "wemakecustom/bolt-parent-theme",
+    "description": "Allows the declaration of a theme’s parent, much like Wordpress.",
+    "type": "bolt-extension",
+    "require": {
+        "bolt/bolt": ">=2.0.0,<3.0.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sebastien Lavoie",
+            "email": "seb@wemakecustom.com",
+            "homepage": "http://blog.lavoie.sl/"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "init.php"
+        ],
+        "psr-4": {
+            "Bolt\\Extension\\WMC\\ParentTheme\\": ""
+        }
+    }
+}
